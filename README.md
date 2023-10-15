@@ -1,7 +1,7 @@
 # Dirty Pipe Exploit: CVE-2022-0847
 The Dirty Pipe vulnerability, also known as CVE-2022-0847, is a significant flaw within the Linux kernel. This repository provides an adapted version of the widely used exploit code to make it more user-friendly and modular.
 
-You'll find a very good explanation of this vulnerability on [this HackTheBox blog](https://www.hackthebox.com/blog/Dirty-Pipe-Explained-CVE-2022-0847). The more detailed an orignal one's from Max Kellermann is [on his blog](https://dirtypipe.cm4all.com/).
+A very good explanation of this vulnerability can be found on the [HackTheBox blog](https://www.hackthebox.com/blog/Dirty-Pipe-Explained-CVE-2022-0847). Max Kellermann's original, more detailed explanation can be found [on his blog](https://dirtypipe.cm4all.com/).
 
 This adapted version is segmented into different methods to increase modularity and ease of modification. Notably, there's an added --root option that modifies the /etc/passwd file, to leverage root access with password `el3ph@nt!`.
 
